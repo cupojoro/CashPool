@@ -1,0 +1,32 @@
+{% extends "landing/base.html" %}
+
+{% load static %}
+
+{% block custom_css %}
+  <link rel="stylesheet" href="{% static 'landing/css/about.css' %}">
+{% endblock %}
+
+{% block body %}
+
+<div class="body-background">
+  <div class="body-box">
+    <div class="box-col">
+      <div class="spacer"></div>
+      <img class="img-portrait" src="{% static 'landing/images/joe_face.jpeg' %}">
+      <h3>Joe Ross</h3>
+      <p>Joe is a really cool guy who does things and stuff.</p>
+      <div class="spacer"></div>
+    </div>
+  </div>
+  <div class="body-box">
+    <div class="box-col">
+      <div class="spacer"></div>
+      <img class="img-portrait" src="{% static 'landing/images/jon_face.jpeg' %}">
+      <h3>Jon Hendrix</h3>
+      <p>Biggest bitch boy.</p>
+      <div class="spacer"></div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

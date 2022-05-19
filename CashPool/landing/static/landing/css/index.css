@@ -1,0 +1,30 @@
+.body-box {
+    flex: 1;
+}
+
+.body-info{
+    padding:  75px;
+    text-align: left;
+}
+
+.main-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn-submit{
+    border: 1px solid #c2cfd8;
+    margin-top: 0.5rem;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+}
+
+.btn-submit:hover {
+    background-color: #008cff;
+}

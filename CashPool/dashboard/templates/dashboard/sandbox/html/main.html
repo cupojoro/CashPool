@@ -1,0 +1,48 @@
+{% extends "dashboard/sandbox/html/dashboard_base.html" %}
+
+{% load static %}
+
+{% block custom_css %}
+  <link rel="stylesheet" href="{% static 'dashboard/sandbox/css/main.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="pool-account-panel">
+  <h3 class="pool-account-panel-header-text">Account</h3>
+  <h3 class="pool-account-panel-header-text">Value</h3>
+  <h3 class="pool-account-panel-cell-text">Wells - 123</h3>
+  <h3 class="pool-account-panel-cell-text">$10,852.21</h3>
+  <h3 class="pool-account-panel-cell-text">Chase - 345</h3>
+  <h3 class="pool-account-panel-cell-text">$1,102.00</h3>
+  <h3 class="pool-account-panel-cell-text">Amex - ANC</h3>
+  <h3 class="pool-account-panel-cell-text">$852.21</h3>
+</div>
+<div class="pool-visual-panel">
+  <div class="pool-visual-panel-standin">
+    <p> placeholder </p>
+  </div>
+</div>
+<div class="pool-level-panel">
+  <h3 class="pool-level-panel-header-text">Priority</h3>
+  <h3 class="pool-level-panel-header-text">Name</h3>
+  <h3 class="pool-level-panel-header-text">Size</h3>
+  <h3 class="pool-level-panel-header-text">Fill</h3>
+  <h3 class="pool-level-panel-header-text">Fill %</h3>
+  <h3 class="pool-level-panel-cell-text">1</h3>
+  <h3 class="pool-level-panel-cell-text">Rent</h3>
+  <h3 class="pool-level-panel-cell-text">$2,200.00</h3>
+  <h3 class="pool-level-panel-cell-text">$2,200.00</h3>
+  <h3 class="pool-level-panel-cell-text">100%</h3>
+  <h3 class="pool-level-panel-cell-text">2</h3>
+  <h3 class="pool-level-panel-cell-text">Utilities</h3>
+  <h3 class="pool-level-panel-cell-text">$800.00</h3>
+  <h3 class="pool-level-panel-cell-text">$800.00</h3>
+  <h3 class="pool-level-panel-cell-text">100%</h3>
+  <h3 class="pool-level-panel-cell-text">3</h3>
+  <h3 class="pool-level-panel-cell-text">Leftover</h3>
+  <h3 class="pool-level-panel-cell-text"> - </h3>
+  <h3 class="pool-level-panel-cell-text">$1,423.23</h3>
+  <h3 class="pool-level-panel-cell-text"> - </h3>
+</div>
+
+{% endblock %}

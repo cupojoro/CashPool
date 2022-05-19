@@ -1,0 +1,24 @@
+{% extends "landing/base.html" %}
+
+{% load static %}
+
+{% block custom_css %}
+  <link rel="stylesheet" href="{% static 'landing/css/index.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="body-box">
+  <div class="body-info">
+    <h3 style="font-size: 5vw; margin:0px; color: #008cff;">
+    Cash Pools
+    </h3>
+    <p style="font-size: 1.75vw; color: #777a7e;">
+      Connect Cash Pools to your bank to allocate your funds into pools for easier management. Pools allow you to visualize how you are holdng your money and give quick insight into how much money you can spend before dipping into money needed for expenses.
+    </p>
+    <input class="btn-submit" type="submit" onclick="location.href='/accounts/register'" value="Sign Up"></input>
+  </div>
+</div>
+<div class="body-box">
+  <img class="main-img" src="{% static 'landing/images/piggybank_pool.jpeg' %}">
+</div>
+{% endblock %}

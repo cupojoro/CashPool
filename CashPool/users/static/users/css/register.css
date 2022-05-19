@@ -1,0 +1,59 @@
+.body-box{
+    background-color: white;
+    padding: 50px;
+    flex: 2;
+    border-radius: 10px;
+
+}
+.body-box-spacer{
+    flex: 1;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item{
+    flex: 1;
+    margin-top: 0.5rem;
+}
+
+.invalid-feedback {
+    color: #fc6363;
+}
+
+.form-text-input{
+    border-radius: 0.25rem;
+    border: 1px solid #c2cfd8;
+    height: 2.5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-email{
+}
+
+.form-password{
+}
+
+.btn-submit{
+    border: 1px solid #c2cfd8;
+    margin-top: 0.5rem;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+}
+
+.btn-submit:hover {
+    background-color: #008cff;
+}

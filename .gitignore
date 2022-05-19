@@ -1,1 +1,4 @@
 /.idea
+/venv
+/CashPool/CashPool/access_file.py
+/CashPool/dashboard/PlaidUtilities/plaid_access_file.py

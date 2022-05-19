@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'landing/css/base.css' %}">
+    {% block custom_css %}{% endblock %}
+</head>
+
+<body>
+    <div class="nav">
+      <div class="spacer">
+      </div>
+      <div class="title-container">
+        <div class="header-box">
+          <button class="nav-bar-btn" type="button" onclick="location.href='/'">CashPool</button>
+        </div>
+        <div class="header-box">
+          <button class="nav-bar-btn" type="button" onclick="location.href='/about_us'">About Us</button>
+        </div>
+        <div class="header-box">
+          <button class="nav-bar-btn" type="button">Login</button>
+        </div>
+      </div>
+    </div>
+    <div class="body-container">
+        {% block body %} {% endblock %}
+    </div>
+</body>
+</html>

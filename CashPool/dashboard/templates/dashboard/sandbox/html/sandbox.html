@@ -1,0 +1,19 @@
+{% load static %}
+<script>
+    var LINK_TOKEN = "{{link_token}}";
+</script>
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script src="{% static 'sandbox/javascript/sandbox.js' %}"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1>{{link_token}}</h1>
+    <button type="button" onclick="connect();">Connect to Plaid</button>
+</head>
+<body>
+
+</body>
+</html>
